@@ -1,0 +1,189 @@
+body {
+  overflow: auto;
+}
+.nav {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+}
+.nav-title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
+}
+.nav-links {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-right: 20px;
+  list-style: none;
+}
+.nav-item a {
+  text-decoration: none;
+  color: darkgray;
+}
+.btn {
+  background-color: #17a2b8;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 14px 14px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: auto;
+}
+.main {
+  margin-left: 10%;
+  padding: 5%;
+  position: absolute;
+}
+
+.user-card {
+  width: 530px;
+  height: 480px;
+  border: 2px solid #999;
+  font-size: 1.3rem;
+}
+
+.user-icon {
+  background-color: #17a2b8;
+  height: 130px;
+  margin-bottom: 40px;
+}
+
+.card-info {
+  margin-bottom: 10%;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 190px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.location,
+.edit {
+  height: 20px;
+}
+
+a {
+  color: #3a81e6;
+}
+.education {
+  width: 530px;
+  margin: 3% 0%;
+  border: 2px solid #999;
+}
+.edu-title {
+  color: white;
+  background-color: dimgray;
+  margin-top: 0px;
+  line-height: 75%;
+  padding: 3%;
+}
+.edu-body {
+  margin: 2%;
+}
+.edu-body p {
+  color: dimgray;
+  font-size: large;
+}
+.sec-main {
+  width: 600px;
+  margin-top: 10%;
+  margin-left: 58%;
+  position: absolute;
+}
+.Connection {
+  height: 250px;
+  width: 230px;
+  margin: -12% 0% 13% 0%;
+  border: 2px solid #999;
+}
+.con-title {
+  color: white;
+  background-color: dimgray;
+  margin-top: 0px;
+  line-height: 75%;
+  padding: 3%;
+}
+.con-title span {
+  height: 17px;
+  width: 20px;
+  background-color: #bbb;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1%;
+  display: inline-block;
+}
+.con-body {
+  margin: 2%;
+  text-align: left;
+}
+.con-body p {
+  margin-bottom: 18%;
+}
+.con-user {
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  float: left;
+  margin-top: -5%;
+}
+.req-icon {
+  height: 30px;
+  border-radius: 50%;
+  padding: 1px;
+  float: right;
+  margin-top: -3%;
+}
+.my-connection {
+  width: 230px;
+  margin: 3% 0%;
+  border: 2px solid #999;
+}
+.my-connection p {
+  margin-bottom: 15%;
+}
+.mycon-body {
+  margin: 2%;
+  text-align: left;
+}
+.mycon-title {
+  color: white;
+  background-color: dimgray;
+  margin-top: 0px;
+  line-height: 75%;
+  padding: 3%;
+}
+.mycon-title span {
+  height: 15px;
+  width: 25%;
+  background-color: #bbb;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
+}
+.view {
+  width: 100%;
+  border: 2px solid #999;
+  border-inline: none;
+  padding: 5px;
+  margin: -5px;
+}

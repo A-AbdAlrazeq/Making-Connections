@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Making Connections</title>
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="nav-title">Profile</h1>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#" class="active">My Profile</a></li>
+        <li class="nav-item"><a href="#">Find Connections</a></li>
+      </ul>
+      <button class="btn">Sign Out</button>
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="user-card">
+          <div class="user-icon">
+            <img
+              id="img"
+              class="user-avatar"
+              src="images/jane-m.jpg"
+              alt="user-icon"
+            />
+          </div>
+          <div class="card-info">
+            <h1 id="name">Jane Doe</h1>
+            <p>
+              <img
+                class="location"
+                src="icons/map-marker.png"
+                alt="map location"
+              />
+              Seattle
+            </p>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+
+            <a href="#" onclick="ChangeText()"
+              ><img src="icons\gear.png" alt="Edit profile" class="edit" /> Edit
+              Profile</a
+            >
+          </div>
+        </div>
+        <div class="education">
+          <h1 class="edu-title">Education</h1>
+          <div class="edu-body">
+            <h2>Coding Dojo - Full Stack Bootcamp</h2>
+            <p>Dec 2019 - Mar 2020</p>
+            <h3>Triple Black belt in Python, MERN, and c#...</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-main">
+        <div class="Connection">
+          <h3 class="con-title">
+            <span id="req-num">2</span>
+            Connection Requests
+          </h3>
+          <div class="con-body">
+            <p id="req1">
+              <img
+                class="con-user"
+                src="images\todd-s.jpg"
+                alt="user-icon"
+              />Todd E
+              <img
+                id="rej1"
+                onclick="reject('#req1')"
+                class="req-icon"
+                src="icons/close-circle.png"
+                alt="reject-icon"
+              />
+              <img
+                onclick="accept('#req1')"
+                class="req-icon"
+                src="icons/accept-circle.png"
+                alt="accept-icon"
+              />
+            </p>
+            <p id="req2">
+              <img
+                class="con-user"
+                src="images\phil-s.jpg"
+                alt="user-icon"
+              />Phil K
+              <img
+                id="rej2"
+                onclick="reject('#req2')"
+                class="req-icon"
+                src="icons/close-circle.png"
+                alt="reject-icon"
+              />
+              <img
+                onclick="accept('#req2')"
+                class="req-icon"
+                src="icons/accept-circle.png"
+                alt="accept-icon"
+              />
+            </p>
+          </div>
+        </div>
+        <div class="my-connection">
+          <h3 class="mycon-title">
+            <span id="con-num">500</span>
+            Your Connection
+          </h3>
+          <div class="mycon-body">
+            <p>
+              <img
+                class="con-user"
+                src="images/adrien-s.jpg"
+                alt="user-icon"
+              />Adrien D
+            </p>
+            <p>
+              <img
+                class="con-user"
+                src="images/anne-s.jpg"
+                alt="user-icon"
+              />Anne J
+            </p>
+            <p>
+              <img
+                class="con-user"
+                src="images/alayne-s.jpg"
+                alt="user-icon"
+              />Alayne T
+            </p>
+            <p>
+              <img
+                class="con-user"
+                src="images/arry-s.jpg"
+                alt="user-icon"
+              />Arry Y
+            </p>
+            <div class="view"><a href="">View More</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
